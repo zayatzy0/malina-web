@@ -1,0 +1,53 @@
+@font-face {
+    font-family: monofur;
+    src: url('fonts/monof55.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: monofur;
+    src: url('fonts/monof56.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+:root {
+    --black: #14161F;
+
+    --gray-dd: #1B1D28;             /*background color*/
+    --gray-d: #454B6875;
+    --gray-md: #454B68;
+    --gray-m: #606890;
+    --gray-ml: #8B91B1;
+    --gray-l: #D1D4E0;
+    --gray-ll: #E0E2EB;
+    
+    --cyan: #29E0FA;
+    --cyan-l: #7AD8EC;
+    --green: #2DE266;
+    --green-l: #5DE486;
+    --yellow: #E0E97C;
+    --yellow-l: #EBF296;
+    --orange: #EDA85D;
+    --red: #F0474A;
+    --red-l: #FC787D;
+    --pink: #F269B9;
+    --pink-l: #F995D0;
+    --purple: #AF86EB;
+    --purple-l: #CEB1F6;
+
+    --white: #D1D4E0;               /*default text*/
+    --white-l: #E0E2EB;
+    --gray: #8B91B1;
+}
+
+* {
+    background-color: var(--gray-dd);
+    font-family: monofur;
+    color: var(--white);
+}
+
+h1 {
+    color: var(--pink);
+}
